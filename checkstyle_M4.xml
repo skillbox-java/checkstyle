@@ -14,19 +14,19 @@
 
     <module name="LocalVariableName">
       <message key="name.invalidPattern"
-        value="Неверное наименование локальной переменной - ''{0}'', имя переменной должно удовлетворять регулярному выражению - ''{1}'', пример: carsAmount"/>
+	      value="Неверное наименование локальной переменной - ''{0}'', имя переменной должно удовлетворять регулярному выражению - ''{1}'', пример: carsAmount. Подробнее: http://sk.sendel.ru/2020/java-code-style/#parameters"/>
     </module>
 
     <module name="ConstantName">
       <message key="name.invalidPattern"
-        value="Неверное наименование константы - ''{0}'', имя константы должно удовлетворять регулярному выражению - ''{1}'', пример: THIS_IS_CONSTANT "/>
+	      value="Неверное наименование константы - ''{0}'', имя константы должно удовлетворять регулярному выражению - ''{1}'', пример: THIS_IS_CONSTANT. Подробнее: http://sk.sendel.ru/2020/java-code-style/#constant"/>
     </module>
 
     <module name="MethodName">
       <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
       <property name="allowClassName" value="false"/>
       <message key="name.invalidPattern"
-        value="Неверное наименование методы - ''{0}'', имя метода должно удовлетворять регулярному выражению - ''{1}'', пример: getAmount() "/>
+        value="Неверное наименование методы - ''{0}'', имя метода должно удовлетворять регулярному выражению - ''{1}'', пример: getAmount() Подробнее: http://sk.sendel.ru/2020/java-code-style/#method "/>
     </module>
 
     <module name="MethodLength">
